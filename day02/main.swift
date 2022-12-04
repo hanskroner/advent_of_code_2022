@@ -91,7 +91,7 @@ func pointsForMatch(_ p1: Move, _ p2: Move) -> Int {
 
 // Split the contents of the input file at newlines. This separates each individual rock, paper, scissors
 // match.
-let inputFilePath = "/Users/hans/Projects/AoC22/day02/input"
+let inputFilePath = "/Users/hans/Projects/AoC22/advent_of_code_2022/input"
 let inputMatches = try! String(contentsOfFile: inputFilePath).split(separator:"\n").map({ String($0) })
 
 var tally_1 = 0

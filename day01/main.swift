@@ -17,7 +17,7 @@ struct Elf {
 
 // Split the contents of the input file at double newlines. This groups the string of calories each ELf
 // is carrying.
-let inputFilePath = "/Users/hans/Projects/AoC22/day01/input"
+let inputFilePath = "/Users/hans/Projects/advent_of_code_2022/day01/input"
 let inputElfs = try! String(contentsOfFile: inputFilePath).split(separator:"\n\n").map({ String($0) })
 
 // Split the string with each Elf's grouped calories at newlines. This separates the individual calorie

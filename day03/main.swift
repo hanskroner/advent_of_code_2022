@@ -23,7 +23,7 @@ func priority(forCharacter char: Character) -> Int? {
     return nil
 }
 
-let inputFilePath = "/Users/hans/Projects/AoC22/day03/input"
+let inputFilePath = "/Users/hans/Projects/advent_of_code_2022/day03/input"
 let inputPacks = try! String(contentsOfFile: inputFilePath).split(separator:"\n").map({ String($0) })
 
 var pacKPrioritySum = 0
